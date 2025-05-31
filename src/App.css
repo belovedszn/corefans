@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Grotesk';
+  src: url('./assets/fonts/PowerGrotesk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-Reg';
+  src: url('./assets/fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gilroy-MD';
+  src: url('./assets/fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Youtube-MD';
+  src: url('./assets/fonts/youtube-sans-medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Spotify-MD';
+  src: url('./assets/fonts/GothamMedium_1.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Apple';
+  src: url('./assets/fonts/SF-Pro-Display-Medium.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}

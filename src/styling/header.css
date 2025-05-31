@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exile&display=swap");
+@import "tailwindcss";
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #fff;
+  font-size: 22px;
+  position: relative;
+  padding: 10px;
+}
+
+nav:focus {
+  color: red;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 2px;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+.hamburger.open .bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+.mobile {
+  display: none;
+}
+
+.beta {
+  padding: 5px 12px;
+  border: 1px solid #f18b1b;
+  color: #f18b1b;
+  font-size: 14px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar {
+    padding: 0px 40px;
+  }
+
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    flex-direction: column;
+    text-align: left;
+    background: #131414;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    z-index: 999;
+    align-items: flex-start;
+    gap: 50px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .right {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    padding: 0px 20px;
+  }
+
+  .nav-links {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .bar {
+    width: 25px;
+    margin: 3px 0;
+  }
+}

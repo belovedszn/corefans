@@ -1,0 +1,23 @@
+footer {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .logo-and-socials, .last-box {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .last-box {
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .rights-reserved {
+        display: none;
+    }
+}
