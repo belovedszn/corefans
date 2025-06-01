@@ -7,7 +7,7 @@ function ThirdBox() {
     <div className="flex text-white mt-25 max-lg:mt-12.5 max-lg:flex-col max-lg:items-center">
       <div className="p-8 pl-0 w-3/5 max-lg:w-full max-lg:text-center">
         <div
-          className="text-4xl leading-[1.1] font-bold text-white uppercase mb-4 tracking-wider max-md:text-3xl max-sm:text-2xl"
+          className="text-4xl leading-[1.1] font-bold text-white uppercase mb-4 tracking-wider max-md:text-3xl max-sm:text-2xl max-lg:text-center"
           style={{ fontFamily: "Grotesk" }}
         >
           UNLOCK BRAND DEALS 
