@@ -5,6 +5,7 @@ CoreFans is an all-in-one music platform designed to empower artists, executives
 🌟 Key Features;
 
 🎙️ For Artists
+
 Upload & Manage Music: Securely upload audio tracks, albums, and EPs.
 
 Track Performance: Analytics dashboard showing streams, downloads, and fan interactions.
