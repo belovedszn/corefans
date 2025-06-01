@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 import { Link } from "react-router-dom";
 import "../../styling/artists.css";
 import nonso from "../../assets/images/nonso.jpeg";
@@ -136,4 +136,4 @@ function FirstBox() {
   );
 }
 
-export default FirstBox;
+export default FirstBox; */

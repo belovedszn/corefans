@@ -83,6 +83,7 @@ const Sales = () => {
               style={{
                 background: "linear-gradient(to right, #F18B1B, #E52053)",
               }}
+                  onClick={() => handleSelect(product.id)}
             >
               <span className="relative z-10">Select Exclusive</span>
 

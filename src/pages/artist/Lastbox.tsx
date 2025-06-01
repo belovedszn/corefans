@@ -1,4 +1,4 @@
-import React from "react";
+
 import mobile from "../../assets/images/mobile.png"
 
 function Lastbox() {

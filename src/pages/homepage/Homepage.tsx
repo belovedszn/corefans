@@ -1,4 +1,4 @@
-import React from "react";
+
 import Artists from "../artist/Artists";
 
 function Homepage() {

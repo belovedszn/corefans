@@ -1,4 +1,4 @@
-import React from "react";
+
 import faveSzn from "../../assets/images/favvvvssss.jpeg";
 import vinyl from "../../assets/images/vinyls.png";
 

@@ -1,4 +1,4 @@
-import React from "react";
+
 import chella from "../../assets/images/chella.jpeg";
 import soundcloud from "../../assets/svg/soundcloud.svg";
 import audiomack from "../../assets/svg/audiomack.svg";

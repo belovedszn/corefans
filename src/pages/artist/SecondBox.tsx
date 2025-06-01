@@ -1,7 +1,6 @@
-import React from "react";
+
 import soundcloud from "../../assets/svg/soundcloud.svg";
 import tidal from "../../assets/svg/tidal.svg";
-import shazam from "../../assets/svg/shazam.svg";
 import audiomack from "../../assets/svg/audiomack.svg";
 
 function SecondBox() {

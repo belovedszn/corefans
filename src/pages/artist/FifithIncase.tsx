@@ -100,7 +100,7 @@ function Fifth() {
   );
 }
 
-export default Fifth; */
+export default Fifth; 
 
 import React from "react";
 import chella from "../../assets/images/chella.jpeg";
@@ -178,4 +178,4 @@ function Fifth() {
   );
 }
 
-export default Fifth;
+export default Fifth; */

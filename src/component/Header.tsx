@@ -31,7 +31,7 @@ function Header() {
                  Fans
               </Link>
             </span>
-            <span>
+            <span>cd
               <Link to="/contact-us" className="cursor-pointer">
                 Contact
               </Link>

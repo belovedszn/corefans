@@ -1,4 +1,3 @@
-import React from "react";
 import sosa from "../../assets/images/sosa.jpeg";
 import soa from "../../assets/images/unde.jpeg";
 

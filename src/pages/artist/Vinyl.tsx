@@ -1,4 +1,4 @@
-import React from "react";
+
 import albumImage from "../../assets/images/favvvvssss.jpeg"; // Update this path
 import vinyl from "../../assets/images/vinyl.jpg"; // Update this path
 
