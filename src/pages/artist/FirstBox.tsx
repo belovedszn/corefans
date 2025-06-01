@@ -35,7 +35,7 @@ function FirstBox() {
             LAUNCH UNFORGETTABLE MUSIC
             <span className="text-[#F18B1B] "> RELEASE CAMPAIGNS </span>
           </div>
-          <div className="text-center max-w-xl leading-relaxed text-lg text-white write-up max-[480px]:text-base">
+          <div className="text-center max-w-xl leading-relaxed text-lg text-white write-up max-[480px]:text-base max-sm:text-[#B1BBC8]">
             Corefans empowers artists to launch creative release campaigns with
             exclusive merch, collectibles, and experiences — driving revenue and
             amplifying your music like never before.
@@ -83,7 +83,7 @@ function FirstBox() {
                 </div>
               </div>
 
-              <div className="bg-[#111] rounded-lg mt-4 w-md h-full p-4 flex items-center justify-between shadow-inner max-lg:w-xs max-md:w-2xs max-sm:w-3xs max-[480px]:">
+              <div className="bg-[#1a1a1a] rounded-lg mt-4 w-md h-full p-4 flex items-center justify-between max-sm:inset-ring-2 max-sm:inset-ring-gray-700 shadow-inner max-lg:w-xs max-md:w-2xs max-sm:w-3xs max-[480px]:">
                 <div className="flex items-center gap-3 max-lg:gap-1.5">
                   <img
                     src={bloodyCiv}
@@ -122,7 +122,7 @@ function FirstBox() {
             </div>
 
             <div className="flex flex-col justify-between h-full max-[480px]:flex-col-reverse max-[480px]:gap-16">
-              <div className="bg-[#1a1a1a] rounded-xl px-6 py-4 -mt-8 mb-4 shadow-md w-md max-lg:w-xs max-md:w-2xs max-sm:w-3xs">
+              <div className="bg-[#1a1a1a] rounded-xl px-6 py-4 -mt-8 mb-4 max-sm:inset-ring-2 max-sm:inset-ring-gray-700 shadow-md w-md max-lg:w-xs max-md:w-2xs max-sm:w-3xs">
                 <div className="text-gray-400 text-xs">TOTAL REVENUE</div>
                 <div className="text-xl font-bold">₦2,150,000.00</div>
                 <div className="text-gray-400 text-xs">+0.00%</div>

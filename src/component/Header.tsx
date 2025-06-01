@@ -10,8 +10,8 @@ function Header() {
     <>
       <nav className="navbar w-full fixed top-0 z-50 bg-[#131414] border-b border-black/20 px-25 h-25 flex justify-between items-center">
         <div className="flex items-center left">
-          <div className="pr-10 flex items-center justify-between gap-0 w-full h-full">
-            <Link to="/" className="logo text-orange-500 text-3xl font-bold"
+          <div className="pr-10 flex items-center justify-between gap-0 w-full h-full max-sm:w-fit max-sm:h-fit">
+            <Link to="/" className="logo text-orange-500 text-2xl font-bold"
             style={{
                 boxShadow: "linear-gradient(to right, #F18B1B, #E52053)",
               }}>

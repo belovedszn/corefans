@@ -41,7 +41,7 @@ const FAQ = () => {
                 <div className="ml-4 transition-transform duration-300">
                   <div className="rounded-full w-10 h-10 flex items-center justify-center border border-white/70">
                     <i
-                      className={`bi text-white text-2xl max-lg:text-xl max-md:text-lg max-sm:text-base ${
+                      className={`bi text-white text-2xl max-lg:text-xl max-md:text-lg ${
                         openIndex === index ? "bi-dash" : "bi-plus"
                       }`}
                     ></i>

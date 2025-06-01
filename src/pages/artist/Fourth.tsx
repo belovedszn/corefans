@@ -3,7 +3,7 @@ import soa from "../../assets/images/unde.jpeg";
 
 function Fourth() {
   return (
-    <div className="flex gap-10 px-4 py-8 rounded-xl text-white mt-25 max-lg:mt-12.5 max-lg:flex-col-reverse max-lg:items-center">
+    <div className="flex gap-10 px-4 py-8 rounded-xl text-white mt-25 max-lg:mt-6 max-lg:flex-col-reverse max-lg:items-center">
       <div className="rounded-xl p-6 w-3/5 inset-ring-2 inset-ring-gray-700 max-lg:w-full max-sm:inset-ring-0">
         <div
           className="flex items-center justify-between border-b border-gray-700 pb-4 p-4 h-36 rounded-lg rounded-b-none max-[480px]:h-full max-lg:items-start max-[480px]:flex-col max-[480px]:gap-1"

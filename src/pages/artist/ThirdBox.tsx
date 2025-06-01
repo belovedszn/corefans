@@ -5,15 +5,15 @@ import vinyl from "../../assets/images/vinyls.png";
 function ThirdBox() {
   return (
     <div className="flex text-white mt-25 max-lg:mt-12.5 max-lg:flex-col max-lg:items-center">
-      <div className="p-8 pl-0 w-3/5 max-lg:w-full ">
+      <div className="p-8 pl-0 w-3/5 max-lg:w-full max-lg:text-center">
         <div
-          className="text-4xl leading-[1.1] font-bold text-white uppercase mb-4 tracking-wider max-lg:text-3xl max-md:text-2xl max-sm:text-xl max-lg:text-center"
+          className="text-4xl leading-[1.1] font-bold text-white uppercase mb-4 tracking-wider max-md:text-3xl max-sm:text-2xl"
           style={{ fontFamily: "Grotesk" }}
         >
-          UNLOCK BRAND DEALS with our exclusive distribution
+          UNLOCK BRAND DEALS 
         </div>
         <p
-          className="text-[#B1BBC8] leading-[1.7] font-normal text-xl max-sm:text-lg"
+          className="text-[#B1BBC8] leading-[1.7] font-normal max-md:text-lg max-sm:text-base"
           style={{ fontFamily: "Gilroy-MD" }}
         >
           Partner with brands that align with your vision to create exclusive
@@ -70,14 +70,14 @@ function ThirdBox() {
               XII.XVII.MMXX Vinyl
             </span>
             <span
-              className="text-xl text-[#B1BBC8] max-md:text-lg max-[480px]:text-base"
+              className="text-xl text-[#B1BBC8] max-lg:text-lg max-md:text-base max-[480px]:text-sm"
               style={{ fontFamily: "Gilroy-MD" }}
             >
               Pre-order this iconic and legendary album's vinyl "The Year,
               XII.XVII.MMXX" from the great Bob Gilroy, produced by Matt Vinsey,
               and designed by Ma0asis.
             </span>
-            <span className="text-2xl font-semibold roboto">$7500</span>
+            <span className="text-2xl font-semibold roboto max-lg:text-xl max-md:text-lg">$7500</span>
           </div>
           <button
             className="relative overflow-hidden text-white px-6 py-4 mt-8 w-full rounded-md font-medium text-lg group cursor-pointer"
