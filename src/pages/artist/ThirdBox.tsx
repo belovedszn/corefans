@@ -4,7 +4,7 @@ import vinyl from "../../assets/images/vinyls.png";
 
 function ThirdBox() {
   return (
-    <div className="flex text-white mt-25 max-lg:mt-12.5 max-lg:flex-col max-lg:items-center">
+    <div className="flex text-white mt-25 max-lg:mt-15 max-lg:flex-col max-lg:items-center">
       <div className=" w-3/5 max-lg:w-full max-lg:text-center">
         <div
           className="text-4xl leading-[1.1] font-bold text-white uppercase mb-4 tracking-wider max-md:text-3xl max-sm:text-2xl max-lg:text-center"
