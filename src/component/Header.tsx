@@ -15,7 +15,7 @@ function Header() {
             style={{
                 boxShadow: "linear-gradient(to right, #F18B1B, #E52053)",
               }}>
-              <img src={logo} alt="Corefans Logo" className="h-20 md:h-24 lg:h-28 xl:h-32 w-auto max-w-full object-contain"/>
+              <img src={logo} alt="Corefans Logo" className="h-22 md:h-26 lg:h-28 xl:h-32 w-auto max-w-full object-contain"/>
             </Link>
             <span className="mobile beta">Beta</span>
           </div>
